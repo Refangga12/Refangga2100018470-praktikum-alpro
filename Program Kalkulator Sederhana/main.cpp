@@ -17,7 +17,7 @@ int main (int argc, char**argv)
     kalkulator :
     cout<<"Operator Perhitungan : "<<endl;
     string Penjumlahan ="(1) Penjumlahan (+)";
-    out<<Penjumlahan<<endl;
+    cout<<Penjumlahan<<endl;
     string Pengurangan ="(2) Pengurangan (-)";
     cout<<Pengurangan<<endl;
     string Perkalian ="(3) Perkalian (*)";
@@ -37,7 +37,7 @@ int main (int argc, char**argv)
     if (z==1)
     {
         hasil=x+y;
-        out<<"Hasil Penjumlahan = "<<hasil<<endl;
+        cout<<"Hasil Penjumlahan = "<<hasil<<endl;
     }
         else if (z==2)
         {
